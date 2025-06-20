@@ -1,0 +1,89 @@
+*{
+    margin: 0; padding: 0; color: white;
+}
+
+.font-48-px{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+.font-32-px{
+    font-size: 32px;
+}
+
+.font-18-px{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.font-16-px{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-scale:active {
+    transition: all ease-in .2s;
+    scale: .95;
+}
+
+.small-font{
+    font-size: 1.1rem;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.big-font{
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading-secondary{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.separation {
+    height: 6px;
+    background-color: rgb(74, 74, 74);
+}
+
+.disp-none {
+    content-visibility: hidden;
+    height: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+/* .faq-low-height{
+    height: 60px;
+}
+
+.faq-high-height{
+    height: 60px;
+} */
